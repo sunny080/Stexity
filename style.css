@@ -181,3 +181,15 @@ section .wave.wave2{
         }
     }
     
+
+    @media (max-width:1920px){
+        .lol{
+            margin-top: 80vh;
+        }
+    }
+    @media (max-height:1920px){
+        .lol{
+            margin-top: 90vh;
+        }
+    }
+
