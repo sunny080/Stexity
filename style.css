@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0
+}
+body{
+    width: 100%;
+    font-family: sans-serif;
+    min-width: 350px;
+
+}
+
+.japan{
+    position: absolute;
+    
+    display: flex;
+    height: 60px;
+    
+    justify-content: space-between;
+    width: 100%;
+    
+ 
+    
+    margin-top: 0px
+  
+}
+.hol{
+    margin-left: 30px;
+}
+.uncle{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.pop{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 30px;
+    margin-top: 18px;
+
+}
+.jim{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+
+
+}
+.jim:hover{
+    color: rgb(31, 32, 32);
+    transition: .5s;
+}
+@media (max-width:450px) {
+    .jim{
+        font-size: 17px;
+        margin-right: 10px;
+    }
+    .pop{
+        margin-right: 0px;
+    }
+    .hol{
+        margin-left:10px ;
+}
+
+
+
+ 
+
+}
+
+
+
+
+
+
+
+
+#particles-js{
+    background-color:rgb(98, 121, 223) ;
+    height: 90vh
+}
+.jhon{
+    margin-top: 240px;
+    position: absolute;
+    padding-left:180px ;
+    font-size: 70px;
+    color: #fff;
+
+}
+.bean{
+    margin-top: 350px;
+    font-size:35px;
+    color: #fff;
+    margin-left: 180px;
+    position: absolute;
+}
+.lol {
+    position: absolute;
+    margin-top: 463px;
+    width: 100%;
+    height: 120px;
+    background:rgb(98, 121, 223) ;
+    overflow:hidden ;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(wave.png);
+    background-size: 1000px 100px;
+    
+}
+section .wave.wave1{
+    animation: animate 30s infinite;
+    z-index: 1000;
+    opacity: 1;
+    animation-delay: 0s;
+    bottom: 0;
+}
+section .wave.wave2{
+    animation: animate2 15s infinite;
+    z-index: 999;
+    opacity: .5;
+    animation-delay: -5s;
+    bottom: 10px;
+}
+section .wave.wave3{
+    animation: animate 15s infinite;
+    z-index: 998;
+    opacity: .2;
+    animation-delay: -2s;
+    bottom: 15px;
+}
+section .wave.wave2{
+    animation: animate2 5s infinite;
+    z-index: 997;
+    opacity: .5;
+    animation-delay: -5s;
+    bottom: 20px;
+}
+@keyframes animate {
+    0%{
+        background-position-x:0 ;
+    }
+    100%{
+        background-position-x:1000px ;
+    }
+}
+@keyframes animate2 {
+    0%{
+        background-position-x:0 ;
+    }
+    100%{
+        background-position-x:-1000px ;
+    }
+}
+    @media (max-width:650px) {
+        .jhon{
+
+        }
+        .bean{
+            margin-left: 10%;
+        }
+        
+       
+        
+    }
+    @media (max-width:550px){
+        .jhon{
+            margin-left:5% ;
+            padding-left: 0;
+        }
+        .bean{
+            margin-left: 5%;
+            font-size: 27px;
+            
+        }
+    }
+    
