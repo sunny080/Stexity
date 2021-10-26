@@ -189,9 +189,14 @@ section .wave.wave2{
 }
     @media (max-width:650px) {
         .jhon{
+            padding-left:0 ;
+            margin-left: 10%;
 
         }
         .bean{
+            margin-left: 10%;
+        }
+        .slol{
             margin-left: 10%;
         }
         
@@ -207,6 +212,9 @@ section .wave.wave2{
             margin-left: 5%;
             font-size: 27px;
             
+        }
+        .slol{
+            margin-left: 5%;
         }
     }
     
