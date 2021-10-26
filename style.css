@@ -11,7 +11,7 @@ body{
 
 .japan{
     position: absolute;
-    
+    padding-top: 20px;
     display: flex;
     height: 60px;
     
@@ -187,9 +187,10 @@ section .wave.wave2{
             margin-top: 80vh;
         }
     }
-    @media (max-height:1920px){
+    @media (max-height:763px){
         .lol{
-            margin-top: 90vh;
+            margin-top: 80vh;
         }
     }
+
 
