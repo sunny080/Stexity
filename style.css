@@ -222,6 +222,10 @@ section .wave.wave2{
             top: 88%;
         }
     }
-   
+    @media (min-height:1868px){
+        .lol{
+            top: 10%;
+        }
+    }
 
 
