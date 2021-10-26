@@ -216,14 +216,10 @@ section .wave.wave2{
             margin-top: 80vh;
         }
     }
-    @media (max-height:763px){
+  
+    @media (min-height:1165px){
         .lol{
-            margin-top: 70vh;
-        }
-    }
-    @media (max-height:1165px){
-        .lol{
-            margin-top: 100%;
+            top: 88%;
         }
     }
    
