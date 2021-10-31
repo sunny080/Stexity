@@ -5,6 +5,7 @@
 body{
     width: 100%;
     font-family: sans-serif;
+    height: 100vh;
     min-width: 350px;
 
 }
@@ -71,7 +72,9 @@ body{
 }
 
 
-
+.malt{
+    overflow: hidden;
+}
 
 
 
@@ -235,5 +238,138 @@ section .wave.wave2{
             top: 10%;
         }
     }
+    @media (min-width:1830px){
+        .lol{
+            top: 90vh;
+        }
+    }
 
 
+.loer{
+    margin-top: 20vh;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(22, 22, 70);
+    z-index: 1;
+}
+.loop{
+    font-weight: 500;
+}
+
+.boop{
+    width: 300px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 60px;
+    box-shadow: 5px 5px 0px rgb(80, 80, 80);
+    border-radius: 10px;
+    margin-left: 20px;
+    
+    background-color: rgb(243, 242, 242) ;
+    
+    
+    
+}
+
+.folp{
+    width: 100%;
+    margin-top:-52px ;
+    opacity: .3;
+    
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+}
+.fole{
+    width: 100%;
+    margin-top:-75px ;
+    opacity: .3;
+    
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+}
+.folw{
+    width: 100%;
+    margin-top:-50px ;
+    opacity: .3;
+    
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+}
+.folq{
+    width: 100%;
+    margin-top:-1px ;
+    opacity: .3;
+    
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+}
+
+
+.homk{
+    height: 240px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px ;
+}
+
+.kong{
+    width: 90%;
+    margin-left: 5%;
+}
+.lpi{
+    font-size: 23px;
+    margin-top: 15px;
+    color: rgb(31, 30, 30);
+    padding-bottom: 20px;
+    
+    font-weight: 100;
+    font-family:monospace;
+}
+.kolp{
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(68, 67, 67);
+    width: 93%;
+    margin-left: 3.5%;
+    font-weight:10 ;
+    line-height: 25px;
+    font-style: italic;
+
+
+}
+
+.gogle{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    
+
+}
+@media (max-width:1100px) {
+    .boop{
+        width: 400px;
+    }
+    .folp{
+        margin-top: -30px;
+    }
+    .fole{
+        margin-top: -80px;
+    }
+    .folw{
+        margin-top: -30px;
+    }
+    .folq{
+        margin-top: -30px;
+    }
+}
+@media (max-width:860px){
+    .boop{
+        width: 500px;
+        margin-left: 0;
+    }
+}
